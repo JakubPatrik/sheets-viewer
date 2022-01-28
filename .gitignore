@@ -1,0 +1,11 @@
+# secrets
+sheets_id.sh
+
+# rendered html files
+public/[0-9]*
+
+# fetched csv data
+csv
+
+# log files
+*.log

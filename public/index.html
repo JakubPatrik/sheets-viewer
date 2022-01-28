@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>INVOICES</title>
+</head>
+
+<body>
+    <main>
+        <div class="title">
+            <h1>Invoices</h1>
+        </div>
+
+        <div class="grid">
+            <div class="container" onclick="go(2020)">2020
+            </div>
+            <div class="container" onclick="go(2021)">2021
+            </div>
+            <div class="container" onclick="go(2022)">2022
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Jakub Patrik© 2022 All rights reserved.</p>
+        <a href="https://github.com/JakubPatrik">Github</a>
+    </footer>
+</body>
+
+<script>
+    function go(year) {
+        window.location = `C:/Users/Jakub Patrik/Desktop/sheets-viewer/public/${year}.html`;
+    }
+</script>
+
+</html>
